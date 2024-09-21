@@ -42,6 +42,7 @@ function App() {
               <Route path="/line" element={<Line />} />
               <Route path="/geography" element={<Geography />} />
 
+              <Route path="*" element={<Dashboard />} />
             </Routes>
           </main>
         </div>
